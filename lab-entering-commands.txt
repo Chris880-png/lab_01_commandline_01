@@ -17,7 +17,14 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Adlm			Library			QLData
+Adobe			MPLABXProjects		Things
+Applications		Movies			ipe.properties
+Creative Cloud Files	Music			isus
+Desktop			Paint and shield.ai	pymel.log
+Documents		Pictures		xgen
+Downloads		Public
+v314-ent-009:~ student$ 
 
 
 ==========
@@ -27,18 +34,28 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
+v314-ent-009:~ student$ ls D
+Desktop/   Documents/ Downloads/ 
+v314-ent-009:~ student$ ls D
+
+It shows the documents download options to go to.
 
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+v314-ent-009:~ student$ ls D
+Desktop/   Documents/ Downloads/ 
+v314-ent-009:~ student$ ls D
+It just repeats the previous response.
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+ls: D: No such file or directory
+v314-ent-009:~ student$
 
 
 
@@ -49,7 +66,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 8
+drwxrwxrwx  14 student  staff   476 Jan 17  2018 Adobe
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 Arduino
 
 
 ==========
@@ -59,8 +78,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+.			Fritzing		Pro Tools
+..			MATLAB			Processing
+.DS_Store		MakeHuman		REAPER Media
 
 ==========
 5.  Type:
@@ -69,9 +89,17 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
+.			Fritzing		Pro Tools
+..			MATLAB			Processing
+.DS_Store		MakeHuman		REAPER Media
+.TmThBHyOVRrMJdi0	Max 7			Temporary Work
+.localized		MuseLog.txt		Unreal Projects
+Adobe			Native Instruments	eagle
+Arduino			NewBlue			iChats
+Avid Projects		Pd			maya
+v314-ent-009:~ student$ 
 
-
-
+A repeation of content.
 ==========
 6.  Type:
 
@@ -79,7 +107,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -adocuments command
 
 
 ==========
@@ -89,9 +117,11 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
+Macintosh HD		firmwaresyncd.KA2VNA
+v314-ent-009:~ student$ 
 
 
-
+A url appears and a location.
 ==========
 8.  Type:
 
@@ -99,37 +129,39 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+ls: doesnotexist: No such file or directory
+v314-ent-009:~ student$ 
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<up>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+<UP> <ENTER>
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<tab>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+directory
 
 
 ==========
@@ -139,6 +171,8 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
+v314-ent-009:~ student$ 
 
 
 
@@ -149,6 +183,8 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
+v314-ent-009:~ student$ 
 
 
 
@@ -156,6 +192,12 @@ Copy and paste the output below.
 16.  In the following line....
 
 $ ls -a Desktop
+.			.localized		Sound Effects Server
+..			Share 1 Read Only	Student Temporary Work
+.DS_Store		Share 2 Read-Write
+v314-ent-009:~ student$ 
+
 
 What is the command, flag, argument, and prompt?
 ----------
+The Command is listing the desktop files, the argument lists the local files, and the promt is the output of the command.
