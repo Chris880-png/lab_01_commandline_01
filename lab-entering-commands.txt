@@ -38,7 +38,7 @@ v314-ent-009:~ student$ ls D
 Desktop/   Documents/ Downloads/ 
 v314-ent-009:~ student$ ls D
 
-It shows the documents download options to go to.
+It lists all directories starting with D.
 
 
 
@@ -143,7 +143,8 @@ v314-ent-009:~ student$
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-<UP> <ENTER>
+-a
+-l
 
 
 ==========
@@ -161,7 +162,7 @@ ls
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-directory
+desktop
 
 
 ==========
@@ -200,4 +201,6 @@ v314-ent-009:~ student$
 
 What is the command, flag, argument, and prompt?
 ----------
-The Command is listing the desktop files, the argument lists the local files, and the promt is the output of the command.
+flag -a
+arg desktop
+prompt $
