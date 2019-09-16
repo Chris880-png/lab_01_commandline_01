@@ -204,3 +204,4 @@ What is the command, flag, argument, and prompt?
 flag -a
 arg desktop
 prompt $
+command ls
